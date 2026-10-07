@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🩺 Disease Prediction System</h1>
+    <p>Select your symptoms to get a possible prediction.</p>
+
+    <div class="symptoms">
+        <label><input type="checkbox" value="fever"> Fever</label>
+        <label><input type="checkbox" value="cough"> Cough</label>
+        <label><input type="checkbox" value="headache"> Headache</label>
+        <label><input type="checkbox" value="cold"> Cold</label>
+        <label><input type="checkbox" value="sorethroat"> Sore Throat</label>
+        <label><input type="checkbox" value="bodypain"> Body Pain</label>
+        <label><input type="checkbox" value="stomachpain"> Stomach Pain</label>
+        <label><input type="checkbox" value="vomiting"> Vomiting</label>
+        <label><input type="checkbox" value="diarrhea"> Diarrhea</label>
+        <label><input type="checkbox" value="fatigue"> Fatigue</label>
+    </div>
+
+    <button onclick="predictDisease()">Predict Disease</button>
+
+    <div id="result"></div>
+
+    <p class="note">
+        ⚠️ This is a student/demo project and is not a medical diagnosis.
+    </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
